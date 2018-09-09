@@ -1,0 +1,8 @@
+vbell off
+defscrollback 30000
+hardstatus alwayslastline
+hardstatus string '%{= bC}%-Lw%{= Yk}%50>%n%f* %t%{= bC}%+Lw%< %{=kG}%-=%D %d %M %Y %c:%s%{-}'
+escape ^bb
+startup_message off
+screen 0 bash
+screen 1
